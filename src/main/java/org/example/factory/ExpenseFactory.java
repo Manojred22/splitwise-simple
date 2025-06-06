@@ -22,7 +22,7 @@ public class ExpenseFactory {
                     total += split.getAmount();
                 }
                 if(total != amount){
-                    throw new IllegalArgumentException("Exact split amount doesnt match total amount");
+                    throw new IllegalArgumentException("Exact split amount doesnt match total amount ");
                 }
                 break;
 
